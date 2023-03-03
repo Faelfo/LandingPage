@@ -1,0 +1,17 @@
+.hobbies {
+    margin: 5rem 0 0 6rem;
+}
+
+.itens__hobbie {
+    margin: 0 auto;  
+}
+
+.hobbie__itens {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 6rem 0 0;    
+}
+
+.nome__hobbies {
+    font-weight: 600;
+}

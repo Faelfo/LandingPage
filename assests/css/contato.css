@@ -1,0 +1,61 @@
+.contato {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+
+.imagem__formulario {
+    display: flex;
+    width: 25%;
+    margin-left: 6rem;
+    height: 566px;
+}
+
+.formulario {
+    width: 60%;
+    height: 100vh;
+    margin-right: 6rem;
+}
+
+.dados__formulario .itens__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub__titulo--form {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+.texto__formulario {
+    font-weight: 500;
+    font-size: 18px; 
+    color: #464646;
+    width: 70%;
+}
+
+.dados__formulario {
+    margin-top: 1rem;
+}
+
+.formulario__inf {
+    font-weight: 500;
+    font-size: 12px; 
+    color: #464646;
+}
+
+.formulario__input {
+    width: 70%;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.fomulario__mensagem {
+    width: 70%;
+}
+
+.formulario__button {
+    margin-top: 1.45rem;
+}

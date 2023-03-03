@@ -1,0 +1,17 @@
+.skills {
+    margin: 5rem 0 0 6rem;
+}
+
+.itens {
+    margin: 0 auto;  
+}
+
+.skill__itens {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 6rem 0 0;    
+}
+
+.nome__skill {
+    font-weight: 600;
+}

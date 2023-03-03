@@ -1,0 +1,35 @@
+.formacao {
+    margin: 5rem 0 0 6rem;
+}
+
+.item__formacao {
+    margin: 0 auto;  
+}
+
+.formacao__itens {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nome__formacao {
+    font-weight: 600;
+}
+
+.formacao__titulo {
+    margin-bottom: 0.25rem;
+}
+
+.imagem__formacao {
+    width: 50%;
+}
+
+.nome__formacao {
+    font-size: 22px;
+    margin-bottom: 1rem;
+    color: #464646;
+}
+
+.formacao__conclusao {
+    font-size: 16px;
+    color: #464646;
+}

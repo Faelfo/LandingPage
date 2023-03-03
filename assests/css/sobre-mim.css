@@ -1,0 +1,19 @@
+:root {
+    --cinza-claro: #464646;
+    --azul-claro: #2A7AE4;
+}
+
+.sobre__mim {
+    width: 65%;
+    margin-left: 6rem;
+}
+
+.sub__titulo-sobre-mim {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+.sobre__mim-texto {
+    margin-top: 1rem;
+}

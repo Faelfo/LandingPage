@@ -1,0 +1,38 @@
+:root {
+    --cinza-claro: #464646;
+    --azul-claro: #2A7AE4;
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    height: 85px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    width: 15%;
+}
+
+.nome {
+    margin-left: 0.75rem;
+}
+
+.menu__item {
+    display: flex;
+    flex-direction: row;
+}
+
+.itens__menu {
+    margin-left: 2rem;
+}
+
+.itens__menu a {
+    color: var(--cinza-claro);
+}

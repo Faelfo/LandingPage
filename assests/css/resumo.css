@@ -1,0 +1,50 @@
+:root {
+    --cinza-claro: #464646;
+    --azul-claro: #2A7AE4;
+}
+
+.resumo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.resumo__texto {
+    width: 45%;
+    margin-right: 6rem;
+}
+
+
+.titulo {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.texto {
+    margin-top: 1.5rem;
+}
+
+.links {
+    margin-top: 0.75rem;
+}
+
+.link__itens {
+    display: flex;
+}
+
+.itens__link {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.resumo__imagem {
+    display: flex;
+}
+
+.foto__perfil {
+    width: 200px;
+    height: 300px;
+    margin-right: 5rem;
+}

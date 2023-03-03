@@ -1,0 +1,59 @@
+.experiencia {
+    margin-top: 5rem;
+}
+
+.experiencia__repositorio {
+    display: flex;
+    justify-content: space-around ;
+    margin: 4rem;
+}
+
+.experiencia__repositorio:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.informacoes__experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub__titulo--exp {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.texto__experiencia {
+    font-weight: 500;
+    color: #464646;
+    font-size: 16px;
+    text-align: center;
+}
+
+.experiencia__botao {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__branco {
+    margin-right: 1rem;
+}
+
+.button__branco a:visited {
+    color: #2A7AE4;
+}
+
+.button__azul a:visited {
+    color: #FFFFFF;
+}
+.img__experiencia {
+    width: 46rem;
+    height: 28rem;
+}
+
+
