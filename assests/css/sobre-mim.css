@@ -16,4 +16,9 @@
 
 .sobre__mim-texto {
     margin-top: 1rem;
+    text-align: justify;
+}
+
+.sobre__mim-texto p {
+    margin-top: 0.25rem;
 }
