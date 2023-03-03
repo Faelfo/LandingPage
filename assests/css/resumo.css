@@ -5,19 +5,19 @@
 
 .resumo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 3rem;
     align-items: center;
 }
 
 .resumo__texto {
     width: 45%;
-    margin-right: 6rem;
+    margin-left: 6rem;
 }
 
 
 .titulo {
-    font-size: 52px;
+    font-size: 3.25rem;
     font-weight: 700;
 }
 
@@ -41,10 +41,11 @@
 
 .resumo__imagem {
     display: flex;
+    margin-right: 10rem;
 }
 
 .foto__perfil {
-    width: 200px;
-    height: 300px;
-    margin-right: 5rem;
+    width: 15rem;
+    height: 20rem;
+    margin-right: 6rem;
 }

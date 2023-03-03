@@ -9,7 +9,7 @@
     display: flex;
     width: 25%;
     margin-left: 6rem;
-    height: 566px;
+    height: 35.375rem;
 }
 
 .formulario {
@@ -25,13 +25,13 @@
 
 .sub__titulo--form {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .texto__formulario {
     font-weight: 500;
-    font-size: 18px; 
+    font-size: 1.125rem; 
     color: #464646;
     width: 70%;
 }
@@ -42,7 +42,7 @@
 
 .formulario__inf {
     font-weight: 500;
-    font-size: 12px; 
+    font-size: 0.75rem; 
     color: #464646;
 }
 
