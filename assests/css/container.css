@@ -1,7 +1,7 @@
 .container {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    background-color: #eeecec;
+    width: 100%;
 }
 
 .sub__titulo {
@@ -29,4 +29,27 @@
     gap: 0.625rem;
     border: 0.063rem solid #2A7AE4;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .sub__titulo {
+    text-align: left;
+    margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .button__azul {
+        padding: 0.50rem 1rem;
+    }
+
+    .button__branco {
+        padding: 0.75rem 1.5rem;
+    }   
+
+    .sub__titulo {
+        text-align: center;
+    }
+
 }

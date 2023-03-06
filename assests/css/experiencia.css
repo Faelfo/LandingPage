@@ -1,10 +1,11 @@
 .experiencia {
     margin-top: 5rem;
+    width: 100%;
 }
 
 .experiencia__repositorio {
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     margin: 4rem;
 }
 
@@ -17,7 +18,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .sub__titulo--exp {
@@ -51,9 +51,40 @@
 .button__azul a:visited {
     color: #FFFFFF;
 }
+
 .img__experiencia {
     width: 46rem;
     height: 28rem;
 }
 
+@media screen and (max-width: 900px) {
 
+    .experiencia__repositorio {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 1rem;
+    }
+
+
+    .experiencia__repositorio:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .img__experiencia {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 425px){   
+    .experiencia__repositorio {
+        margin-right: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experiencia__repositorio:nth-child(2) {
+        justify-content: center;
+        align-items: center;
+    }
+}

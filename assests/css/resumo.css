@@ -49,3 +49,43 @@
     height: 20rem;
     margin-right: 6rem;
 }
+
+@media screen and (max-width: 900px) {
+    .titulo {
+        font-size: 2.50rem;
+    }
+
+    .resumo__texto {
+        margin-left: 1rem;
+    }
+
+    .itens__link {
+       margin: 0.25rem;
+    }
+
+    .foto__perfil {
+        margin-right: 0;
+    }
+    
+}
+
+@media screen  and (max-width: 425px){
+    .resumo {
+        margin-top: 1rem;
+    }
+
+    .resumo__texto {
+        width: 100%;
+    }
+    
+    .titulo{
+        width: 80%
+    }
+    .foto__perfil {
+       position: absolute;
+       width: 9rem;
+       height: 13rem;
+       right: 0;
+       top: 2rem;
+    }
+}

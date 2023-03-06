@@ -1,5 +1,5 @@
 .formacao {
-    margin: 5rem 0 0 6rem;
+    margin-top: 5rem;
 }
 
 .itens__formacao {
@@ -43,5 +43,46 @@
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .formacao__itens {
+        margin: 1rem;
+    }
+
+    .itens__formacao {
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .item__formacao {
+        display: flex;
+    }
+
+    .formacao__titulo {
+        margin-left: 1rem;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .formacao__titulo{
+        text-align: center;
+    }
+    
+    .formacao__itens {
+        flex-wrap: wrap;
+        
+    }
+
+    .itens__formacao {
+        flex-wrap: wrap;        
+        margin-bottom: 2rem;
+        align-content: center;
+    }
+
+    .imagem__formacao {
+        margin-bottom: 0;  
+    }
 }
 

@@ -4,8 +4,7 @@
 }
 
 .sobre__mim {
-    width: 65%;
-    margin-left: 6rem;
+    margin: 6rem;
 }
 
 .sub__titulo-sobre-mim {
@@ -17,8 +16,27 @@
 .sobre__mim-texto {
     margin-top: 1rem;
     text-align: justify;
+    width: 83%;
 }
 
 .sobre__mim-texto p {
     margin-top: 0.25rem;
+}
+
+@media screen and (max-width: 900px) {
+    .sobre__mim {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sobre__mim-texto {
+        width: 100%;
+    }
+
+    .sub__titulo-sobre-mim {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

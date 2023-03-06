@@ -1,5 +1,5 @@
 .skills {
-    margin: 5rem 0 0 6rem;
+    margin-top: 5rem;
 }
 
 .itens {
@@ -8,10 +8,37 @@
 
 .skill__itens {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 2.5rem 6rem 0 0;    
 }
 
 .nome__skill {
     font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+    .skills {
+        margin: 3rem 0 0 1rem;
+    }
+
+    .skill__itens {
+        margin: 0 auto;
+        justify-content: left;
+    }
+
+    .itens__skills {
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .skill__itens {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+    .itens__skills {
+        margin-top: 2rem;
+    }
 }

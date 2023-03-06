@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
-    
+
 }
 
 .imagem__formulario {
@@ -13,8 +13,8 @@
 }
 
 .formulario {
-    width: 60%;
     height: 100vh;
+    margin-left: 0.25rem;
     margin-right: 6rem;
 }
 
@@ -31,7 +31,7 @@
 
 .texto__formulario {
     font-weight: 500;
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     color: #464646;
     width: 70%;
 }
@@ -42,7 +42,7 @@
 
 .formulario__inf {
     font-weight: 500;
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
     color: #464646;
 }
 
@@ -52,10 +52,60 @@
     margin-bottom: 1.5rem;
 }
 
-.fomulario__mensagem {
-    width: 70%;
+.formulario__mensagem {
+    width: 100%;
 }
 
 .formulario__button {
     margin-top: 1.45rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    .contato {
+        margin: 1rem;
+    }
+
+    .imagem__formulario {
+        display: none;
+    }
+
+    .texto__formulario {
+        width: 90%;
+    }
+
+    .formulario {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .dados__formulario {
+        margin-left: 0.20rem;
+    }
+
+    .formulario__inf {
+        margin-bottom: 0.55rem;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .sub__titulo--form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto__formulario {
+        width: 100%;
+    }
+
+    .formulario__input {
+        width: 100%;
+    }
+
+    .formulario__button {
+        display: flex;
+        justify-content: center;
+    }
+
 }
