@@ -80,7 +80,7 @@
     .itens__menu:last-child {
         font-size: 0.85rem;
         display: flex;
-        margin-left: 1rem;
+        margin-right: 1rem;
     }
     
 }
