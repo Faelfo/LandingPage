@@ -18,6 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0.75rem;
 }
 
 .sub__titulo--exp {
@@ -86,5 +87,9 @@
     .experiencia__repositorio:nth-child(2) {
         justify-content: center;
         align-items: center;
+    }
+
+    .experiencia__botao {
+        margin-top: 1rem;
     }
 }

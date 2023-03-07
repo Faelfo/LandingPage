@@ -42,14 +42,16 @@
 @media screen and (max-width: 425px){
     .button__azul {
         padding: 0.50rem 1rem;
+        font-size: 0.75rem;
     }
 
     .button__branco {
-        padding: 0.75rem 1.5rem;
+        padding: 0.50rem 1rem;
+        font-size: 0.75rem;
     }   
 
     .sub__titulo {
         text-align: center;
+        margin-bottom: 0.5rem;
     }
-
 }
