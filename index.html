@@ -191,15 +191,15 @@
                             </div>
                         </li>
                         <li class="experiencia__repositorio">
-                            <img src="./assests/img/Barbearia.PNG" alt="Decodificador de texto" class="img__experiencia">
+                            <img src="./assests/img/doguito.PNG" alt="Decodificador de texto" class="img__experiencia">
                             <div class="informacoes__experiencia">
                                 <div class="experiencia__textos">
                                     <h6 class="sub__titulo--exp">Barbearia Alura</h6>
                                     <p class="texto__experiencia">Projeto Barbearia Alura</p>
                                 </div>
                                 <div class="experiencia__botao">
-                                    <button class="button__branco"><a href="https://github.com/Faelfo/Barbearia-Alura">Repositório</a></button>
-                                    <button class="button__azul"><a href="https://faelfo.github.io/Barbearia-Alura/">Ver demo</a></button>
+                                    <button class="button__branco"><a href="https://github.com/Faelfo/doguito">Repositório</a></button>
+                                    <button class="button__azul"><a href="https://faelfo.github.io/doguito/">Ver demo</a></button>
                                 </div>
                             </div>
                         </li>
@@ -212,25 +212,28 @@
                 <h2 class="sub__titulo--form">Contato</h2>
                 <p class="texto__formulario">Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em
                     contato o mais rápido possível.</p>
-                <form action="" method="post" class="dados__formulario">
+                <form action="https://formsubmit.co/ajax/mateus-fae@hotmail.com" method="POST" class="dados__formulario" data-form>
                     <div class="itens__formulario">
                         <label for="nome" class="formulario__inf">Nome</label>
-                        <input type="text" class="formulario__input" placeholder="Nome" required>
+                        <input type="text" class="formulario__input" placeholder="Nome" data-tipo="nome" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="itens__formulario">
                         <label for="email" class="formulario__inf">E-mail</label>
-                        <input type="email" class="formulario__input" placeholder="seuemail@dominio.com" required>
+                        <input type="email" class="formulario__input" placeholder="seuemail@dominio.com" data-tipo="email" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="itens__formulario">
                         <label for="assunto" class="formulario__inf">Assunto</label>
-                        <input type="text" class="formulario__input" placeholder="Assunto" required>
+                        <input type="text" class="formulario__input" placeholder="Assunto" data-tipo="assunto" required>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="itens__formulario">
                         <label for="msg" class="formulario__inf mensagem">Mensagem</label>
-                        <textarea class="formulario__mensagem" cols="70" rows="10" required></textarea>
+                        <textarea class="formulario__mensagem" cols="70" rows="10"></textarea>
                     </div>
                     <div class="formulario__button">
-                        <button type="submit" class="button__azul">Enviar mensagem</button>
+                        <button type="submit" class="button__azul botao" data-button>Enviar mensagem</button>
                     </div>
                 </form>
             </div>
@@ -240,6 +243,6 @@
             <p class="texto__footer">2023</p>
         </footer>
     </main>
-    
+    <script src="./assests/js/app.js" type="module"></script>
 </body>
 </html>

@@ -48,16 +48,56 @@
 .formulario__input {
     width: 70%;
     height: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.2rem;
 }
 
 .formulario__mensagem {
-    width: 100%;
+    width: 70%;
 }
 
 .formulario__button {
     margin-top: 1.45rem;
 }
+
+.itens__formulario {
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.itens__formulario--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.itens__formulario--invalido {
+    color: #df2525;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.itens__formulario--invalido .input-mensagem-erro {
+    font-size: 0.8rem;
+    color: #df2525;
+    display: block;
+}
+
+.botao:hover,
+.botao:focus {
+    outline: none;
+    background: #0d66da;
+}
+
+.botao:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+  }
+
 
 @media screen and (max-width: 900px) {
 
